@@ -1,7 +1,7 @@
 # python-api-challenge
 Repository for Python API Homework
 
-This repository contains three folders:
+This repository contains four folders:
 
     Weather: This folder contains the jupyter notebook WeatherPy.ipynb
                 This notebook should be executed first as its output is used by the next notebook
@@ -11,6 +11,9 @@ This repository contains three folders:
 
     output_data: This folder contains the output csv from WeatherPy.ipynb that is then read in by
                     VacationPy.ipynb
+
+    images: This folder contains images (png) of each of the twelve plots from WeatherPy and a
+                    screenshot of the Hotel/Heatmap from VacationPy
 
 Important note: A keys file named api_keys.py must be created in the repository root since it used by 
                     both notebooks using relative path file importing.
